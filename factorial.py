@@ -1,4 +1,4 @@
-n = 5
+n=5
 def factorial(n): 
     if n < 0: 
         return 0
@@ -9,4 +9,5 @@ def factorial(n):
         while(n > 1): 
             fact *= n 
             n -= 1
-        return fact 
+
+        return fact ;
